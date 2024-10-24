@@ -18,11 +18,11 @@ public class Ejercicio02 {
         // Resolución del problema
         int var1 = 10;
         int var2 = 2;
-        
+        double potencia = Math.pow(var1,var2);
+        System.out.println(potencia + var1);
                 
     }
     
     
     
-    
-}
+    }
