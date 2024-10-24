@@ -16,7 +16,18 @@ public class Ejercicio03 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int var1 = 10;
+        int exponente = 2;
+        int var2 = 16;
+        int var3 = 20;
+        int var4 = 1;
+        int var5 = 11;
         
+        double potencia = Math.pow (var1,exponente);
+        double radical = Math.sqrt (var2);
+        double division = (20/(1+11));
+        System.out.println(potencia + radical + division);
+                
     }
     
 }
