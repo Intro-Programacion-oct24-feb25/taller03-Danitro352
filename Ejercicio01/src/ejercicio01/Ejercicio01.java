@@ -22,7 +22,8 @@ public class Ejercicio01 {
         int variable3 = 4;
         int variable4 = 3;
         int variable5 = 5;
-        int variable6 = 80;
+        int variable6 = 81; 
+      
 
         System.out.println("-------Solución a problema------------------");
         // Math.sqrt me permite obtener la raíz cuadrada de un número
@@ -30,7 +31,7 @@ public class Ejercicio01 {
         double resultado = (variable1 + variable2 + variable3 + variable4) / 
                 variable5 + Math.sqrt(variable6);
         
-        
+        // Se modifico el valor de la variable6 el cual era originalmente 80
         
         System.out.println(resultado);
 
